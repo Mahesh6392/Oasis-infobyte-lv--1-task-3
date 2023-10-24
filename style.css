@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(https://wallpapercave.com/wp/wp6946323.jpg);
+    background-size:cover;
+    background-position:center ;
+
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 200px;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 5px; */
+    /* box-shadow: 2px 2px 5px #888888; */
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border:none;
+    outline:none;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+}#unit{
+    padding:10px;
+    margin: 10px;
+}
+#temperature{
+    width: 200px;
+}#convert{
+    width: 200px;
+}
